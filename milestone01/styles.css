@@ -1,0 +1,173 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: rgb(62, 213, 230);
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    letter-spacing: 2px;
+    
+}
+
+.container {
+    position:relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(250, 129, 129);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+ .container .left-side
+ {
+    position: relative;
+    background-color: rgb(7, 132, 174);
+    padding: 40px;
+ }
+  .personal-info {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid blue;
+  }
+
+  .personal-info .imgBg{
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.my-name{
+  margin-top: 40px;
+}
+  
+  .contactInfo{
+    padding-top:40px ;
+  }
+  .title{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+   .contactInfo ul {
+    position: relative;
+   }
+   .contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: small;
+}
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(129, 200, 236);
+}
+.contactInfo ul li span{
+    font-weight: 300;
+}
+
+
+  .box-1{
+    position: relative;
+  }
+  .heading{
+    padding: 10px;
+    }
+    .p1{
+      padding: 9px 10px;
+      font-size: 11px;
+    }
+    .skill-container{
+      width: 90%;
+      background-color: white;
+      margin: 0px 10px;
+    }
+    .skill{
+      padding-top: 2px;
+      padding-bottom: 2px;
+      color: rgb(3, 17, 30);
+    }
+    .html{
+      width:90%;
+      background-color: black;
+    }
+    .css{
+      width:85%;
+      background-color: black;
+    }.javascript{
+      width: 89%;
+      background-color:black;
+    }.typescript{
+      width:84%;
+      background-color: black;
+    }
+    .ms-office{
+      width:95%;
+      background-color: black;
+    }
+  
+
+  .container .right-side
+ {
+    position: relative;
+    background-color: rgb(181, 218, 244);
+    padding: 40px;
+ }
+ .objective{
+  margin-bottom: 25px;
+ }
+ .objective:last-child{
+  margin-bottom: 0;
+ }
+ .obj-title{
+  color:rgb(7, 132, 174);
+  letter-spacing: 1px;
+    margin-bottom: 7px;
+    padding: 10px 0 0;
+    font-size: 30px;
+  font-weight: bolder;
+  } 
+  .obj-title p{
+    margin-top: 10px;
+    color: #333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+ .title-edu{
+  color:rgb(7, 132, 174);
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.education h5{
+  color: black;
+}
+.edu-box{
+  padding: 7px;
+}
+#toggle-skills{
+  position: relative;
+  border: 2px solid black;
+  cursor: pointer;
+  background-color: rgb(7, 132, 174);
+  width: 68%;
+  padding: 0px;
+  margin: -110px 54px 55px;
+  border-radius: 50px;
+}
