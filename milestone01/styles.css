@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   background: rgb(62, 213, 230);
+  background: rgb(6, 99, 109);
    display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,6 @@ body {
     width:100%;
     max-width: 1000px;
     min-height: 1000px;
-    background: rgb(250, 129, 129);
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -165,9 +164,11 @@ body {
   position: relative;
   border: 2px solid black;
   cursor: pointer;
-  background-color: rgb(7, 132, 174);
+  background-color: rgb(165, 211, 239);
+  color: black;
   width: 68%;
   padding: 0px;
   margin: -110px 54px 55px;
   border-radius: 50px;
+  font-size: 20px;
 }
