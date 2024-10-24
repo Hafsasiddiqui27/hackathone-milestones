@@ -1,0 +1,118 @@
+body{
+   margin:0;
+   padding: 200px;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   height: 100vh;
+    background: linear-gradient(to bottom right, rgb(156, 200, 235), pink);
+  }
+  
+#cv-Form{
+    width: 70%;
+}
+.container{
+    max-width: 100%;
+    max-height: 160%;
+    background-color: rgb(191, 223, 235);
+ }
+legend{
+    font-size:28px ;
+    font-weight: bold;
+    color: rgb(5, 5, 98);
+}
+label{
+    font-weight: 800;
+    color: rgb(7, 7, 118);
+    display: block;
+    margin-top: 0.62em;
+}
+input[type="text"], input[type="email"], textarea
+{
+    width: 100%;
+    padding: 0.7em;
+    margin-top: 0.5em;
+    border: 3px solid rgb(2, 2, 93);
+    box-sizing: border-box;
+
+}
+textarea{
+    height: 130px;
+}
+.resume-page{
+    padding:20px;
+    background-color: rgb(191, 223, 235);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#dynamicResume h1{
+    text-align: center;
+    color: rgb(55, 28, 105);
+ }
+ #dynamicResume h2{
+    font-size: larger;
+color:rgb(32, 32, 116);
+ }
+
+ #dynamicResume img{
+    width: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 5px solid rgb(193, 169, 217);;
+}
+button{
+    cursor: pointer;
+    border: 2px solid rgb(27, 5, 72);
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+    color: white;
+    background-color: rgb(37, 72, 111);
+        width: 200px;
+        height: 50px;
+        margin-left: 250px;
+        margin-top: 15px;
+
+
+}
+
+.hidden{
+    display:none;
+}
+
+/* responsiveness for Tablet */
+@media(max-width:768px){
+    .container, .resume-page{
+        width: 95%;
+        padding: 16px;
+        background-color: blue;
+    }
+    input[type="text"], input[type="email"], textarea{
+        font-size: 15px;
+    }
+    button{
+        font-size: 16px;
+padding:13px 24px;
+    }
+    #dynamicResume img{
+        width:130px;
+        height:130px;
+       
+    }
+}
+
+/* responsiveness for Mobile */
+@media(max-width:544px){
+    .container, #dynamicResume{
+        width: 100%;
+        padding: 12px;
+        background-color: blueviolet;
+    }
+    input[type="text"], input[type="email"], textarea{
+        font-size: 14px;
+    }
+   
+}
